@@ -12,21 +12,26 @@ Gem::Specification.new do |s|
   s.date = "2011-11-23"
   s.email = ["gabriel@codeconcoction.com", "scott@scottjehl.com"]
   s.extra_rdoc_files = [
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
     "Gemfile",
     "Gemfile.lock",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
+    "lib/app/helpers/respond_helper.rb",
     "lib/respond-rails.rb",
     "lib/respond/rails/engine.rb",
     "lib/respond/rails/version.rb",
+    "respond-rails.gemspec",
     "test/helper.rb",
     "test/test_respond-rails.rb",
-    "vendor/assets/javascripts/respond.js"
+    "vendor/assets/images/respond.proxy.gif",
+    "vendor/assets/javascripts/respond-proxy.html",
+    "vendor/assets/javascripts/respond.js",
+    "vendor/assets/javascripts/respond.proxy.js"
   ]
   s.homepage = "https://github.com/scottjehl/Respond"
   s.licenses = ["MIT", "GPL-2"]
