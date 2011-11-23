@@ -1,9 +1,0 @@
-= respond-rails
-
-Respond.js provides a fast and lightweight script to enable responsive web designs in browsers that don't support CSS3 media queries. You can find the original source repository at https://github.com/scottjehl/Respond.
-
-== Copyright
-
-Copyright (c) 2011 Scott Jehl, scottjehl.com
-
-See https://github.com/scottjehl/Respond for details.
