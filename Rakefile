@@ -14,13 +14,12 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "respond-rails"
-  gem.homepage = "http://github.com/gevans/respond-rails"
-  gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "gabriel@codeconcoction.com"
-  gem.authors = ["Gabriel Evans"]
+  gem.name = 'respond-rails'
+  gem.homepage = 'https://github.com/scottjehl/Respond'
+  gem.licenses = ['MIT', 'GPL-2']
+  gem.summary = %Q{A fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more)}
+  gem.email = ['gabriel@codeconcoction.com', 'scott@scottjehl.com']
+  gem.authors = ['Gabriel Evans', 'Scott Jehl']
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
